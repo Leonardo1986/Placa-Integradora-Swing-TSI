@@ -1,7 +1,7 @@
 #ifndef VERSION_H_
 #define VERSION_H_
 
-#define SELFCHECKOUT 1
+//#define SELFCHECKOUT 1
 #define EVO			 2
 #define SLIM         3
 #define CLASSIC      4

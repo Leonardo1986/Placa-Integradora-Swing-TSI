@@ -152,3 +152,28 @@ Finished building: CtrSwingMp_TSI.bin
  
 Finished building: CtrSwingMp_TSI.list
  
+11:42:32 **** Incremental Build of configuration Debug for project CtrSwingMp_TSI ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/version.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F030x8 -DDEBUG -c -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Drv -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/version.d" -MT"Src/version.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/version.o"
+In file included from ../Src/version.c:1:
+../Src/version.h:23:9: note: '#pragma message: Versão do Firmware: 4.1.10'
+   23 | #pragma message(WARNING_MESSAGE)
+      |         ^~~~~~~
+arm-none-eabi-gcc -o "CtrSwingMp_TSI.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\WorkSpaceGitHub\Placa-Integradora-Swing-TSI\Placa Integradora Swing\CtrSwingMp_TSI\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="CtrSwingMp_TSI.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: CtrSwingMp_TSI.elf has a LOAD segment with RWX permissions
+Finished building target: CtrSwingMp_TSI.elf
+ 
+arm-none-eabi-size  CtrSwingMp_TSI.elf 
+arm-none-eabi-objdump -h -S CtrSwingMp_TSI.elf  > "CtrSwingMp_TSI.list"
+arm-none-eabi-objcopy  -O ihex CtrSwingMp_TSI.elf  "CtrSwingMp_TSI.hex"
+   text	   data	    bss	    dec	    hex	filename
+  65424	     20	   3964	  69408	  10f20	CtrSwingMp_TSI.elf
+arm-none-eabi-objcopy  -O binary CtrSwingMp_TSI.elf  "CtrSwingMp_TSI.bin"
+Finished building: default.size.stdout
+ 
+Finished building: CtrSwingMp_TSI.hex
+Finished building: CtrSwingMp_TSI.bin
+ 
+ 
+Finished building: CtrSwingMp_TSI.list
+ 
