@@ -67,8 +67,8 @@ all: main-build
 main-build: CtrSwingMp_TSI.elf secondary-outputs
 
 # Tool invocations
-CtrSwingMp_TSI.elf CtrSwingMp_TSI.map: $(OBJS) $(USER_OBJS) C:\Placa\ Integradora\ Swing\CtrSwingMp_TSI\STM32F030R8TX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "CtrSwingMp_TSI.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m0 -T"C:\Placa Integradora Swing\CtrSwingMp_TSI\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="CtrSwingMp_TSI.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+CtrSwingMp_TSI.elf CtrSwingMp_TSI.map: $(OBJS) $(USER_OBJS) C:\WorkSpaceGitHub\Placa-Integradora-Swing-TSI\Placa\ Integradora\ Swing\CtrSwingMp_TSI\STM32F030R8TX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "CtrSwingMp_TSI.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m0 -T"C:\WorkSpaceGitHub\Placa-Integradora-Swing-TSI\Placa Integradora Swing\CtrSwingMp_TSI\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="CtrSwingMp_TSI.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

@@ -5,7 +5,6 @@
 #define EVO			 2
 #define SLIM         3
 #define CLASSIC      4
-#define COMPACT      5
 
 #define FIRMWARE_VERSION_MAJOR CLASSIC
 #define FIRMWARE_VERSION_MINOR 1
