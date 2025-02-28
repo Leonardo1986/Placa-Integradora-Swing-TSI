@@ -1,0 +1,16 @@
+gpio.c:34:6:GPIO_Init_RS485	48	static
+gpio.c:68:6:GPIO_Init_Buzzer	32	static
+gpio.c:95:6:GPIO_Init_Disp_Led	32	static
+gpio.c:114:6:GPIO_Init_PictoInOut_Part1	40	static
+gpio.c:143:6:GPIO_Init_PictoInOut_Part2	48	static
+gpio.c:192:6:GPIO_Init_Urn_Sol	32	static
+gpio.c:211:6:GPIO_Init_Motors	48	static
+gpio.c:267:6:GPIO_Init_Urn	40	static
+gpio.c:297:6:GPIO_Init_Sensor	40	static
+gpio.c:334:6:GPIO_Init_PicA	48	static
+gpio.c:370:6:GPIO_Init_ComIo	40	static
+gpio.c:413:6:GPIO_Init_Hmi	48	static
+gpio.c:512:6:GPIO_Init_Motor_Locks	48	static
+gpio.c:612:6:GPIO_Init_Motor1_Lock1	32	static
+gpio.c:633:6:GPIO_Init_Motor2_Lock1	32	static
+gpio.c:654:6:GPIO_Init_All	32	static

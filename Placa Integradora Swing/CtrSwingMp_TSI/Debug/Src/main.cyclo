@@ -1,0 +1,4 @@
+../Src/main.c:56:5:main	2
+../Src/main.c:93:6:SystemClock_Config_OLD	3
+../Src/main.c:122:6:SystemClock_Config	3
+../Src/main.c:160:6:Error_Handler	1

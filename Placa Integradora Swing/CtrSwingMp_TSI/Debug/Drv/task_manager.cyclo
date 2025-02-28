@@ -1,0 +1,12 @@
+../Drv/task_manager.c:44:6:TaskManager	3
+../Drv/task_manager.c:54:6:TaskManager_Go	1
+../Drv/task_manager.c:60:6:TaskManager_Clear	2
+../Drv/task_manager.c:69:6:TaskManager_Set	1
+../Drv/task_manager.c:75:9:TaskManager_Get	1
+../Drv/task_manager.c:81:6:TaskManager_First_Set	3
+../Drv/task_manager.c:90:6:TaskManager_First_Clear	1
+../Drv/task_manager.c:96:6:TaskManager_First_Get	1
+../Drv/task_manager.c:102:6:TaskManager_Step_Set	1
+../Drv/task_manager.c:108:9:TaskManager_Step_Get	1
+../Drv/task_manager.c:114:6:TaskManager_Step_Inc	1
+../Drv/task_manager.c:120:6:TaskManager_Step_Dec	1

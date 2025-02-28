@@ -1,0 +1,16 @@
+../Src/gpio.c:34:6:GPIO_Init_RS485	3
+../Src/gpio.c:68:6:GPIO_Init_Buzzer	3
+../Src/gpio.c:93:6:GPIO_Init_Disp_Led	3
+../Src/gpio.c:112:6:GPIO_Init_PictoInOut_Part1	3
+../Src/gpio.c:141:6:GPIO_Init_PictoInOut_Part2	3
+../Src/gpio.c:190:6:GPIO_Init_Urn_Sol	3
+../Src/gpio.c:209:6:GPIO_Init_Motors	3
+../Src/gpio.c:265:6:GPIO_Init_Urn	3
+../Src/gpio.c:295:6:GPIO_Init_Sensor	3
+../Src/gpio.c:332:6:GPIO_Init_PicA	3
+../Src/gpio.c:368:6:GPIO_Init_ComIo	3
+../Src/gpio.c:415:6:GPIO_Init_Hmi	3
+../Src/gpio.c:646:6:GPIO_Init_Motor_Locks	3
+../Src/gpio.c:746:6:GPIO_Init_Motor1_Lock1	3
+../Src/gpio.c:767:6:GPIO_Init_Motor2_Lock1	3
+../Src/gpio.c:788:6:GPIO_Init_All	1

@@ -1,0 +1,9 @@
+../Drv/sensor.c:52:9:_sensor_get_sensor	1
+../Drv/sensor.c:79:6:_sensor_task_idle	2
+../Drv/sensor.c:91:6:_sensor_task_alarm	7
+../Drv/sensor.c:127:6:_sensor_task_entrance	7
+../Drv/sensor.c:179:6:_sensor_task_exit	7
+../Drv/sensor.c:232:6:Sensor_Init	1
+../Drv/sensor.c:238:12:Sensor_Get	1
+../Drv/sensor.c:243:6:Sensor_Set	5
+../Drv/sensor.c:269:13:Sensor_GetMode	1

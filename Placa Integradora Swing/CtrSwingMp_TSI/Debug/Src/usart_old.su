@@ -1,0 +1,13 @@
+usart_old.c:175:6:USART_2_InterruptConfiguration	8	static
+usart_old.c:155:6:USART_2_EnableUsart	8	static
+usart_old.c:53:6:USART_2_Init	8	static
+usart_old.c:205:6:USART_2_CheckUart	8	static
+usart_old.c:220:6:USART_SetCallbackFunction	0	static
+usart_old.c:240:6:HAL_UART_ErrorCallback	0	static
+usart_old.c:245:6:USART_CallbackError	0	static
+usart_old.c:257:10:_USART_2_WaitFlag	24	static
+usart_old.c:296:5:USART_EnviaBuffer	24	static
+usart_old.c:331:10:_USART_IncCircular	8	static
+usart_old.c:336:6:USART_CallbackReceivePacket	48	static
+usart_old.c:367:5:USART_CheckPendinPacket	8	static
+usart_old.c:372:5:USART_GetPacket	16	static

@@ -1,0 +1,5 @@
+queue_circ.c:6:5:queue_insert	32	static
+queue_circ.c:41:5:queue_retrieve	24	static
+queue_circ.c:71:5:queue_full	0	static
+queue_circ.c:81:5:queue_flush	0	static
+queue_circ.c:95:5:queue_empty	0	static

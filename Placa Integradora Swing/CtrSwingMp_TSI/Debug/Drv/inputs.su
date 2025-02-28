@@ -1,0 +1,14 @@
+../Drv/inputs.c:101:10:inputs_get	16	static
+../Drv/inputs.c:135:6:inputs_motor_get	24	static
+../Drv/inputs.c:155:6:HAL_GPIO_EXTI_Callback	24	static
+../Drv/inputs.c:190:6:Inputs_Init	8	static
+../Drv/inputs.c:197:6:Inputs_IT	16	static
+../Drv/inputs.c:210:6:Inputs_Task	32	static
+../Drv/inputs.c:255:6:Inputs_Get	16	static
+../Drv/inputs.c:260:9:Inputs_Com_Get	8	static
+../Drv/inputs.c:265:9:Inputs_Motor_Enc_Get	16	static
+../Drv/inputs.c:270:6:Inputs_Motor_EncChange_Get	32	static
+../Drv/inputs.c:277:9:Inputs_Motor_Disc_Get	16	static
+../Drv/inputs.c:282:6:Inputs_Urn_CardDet	16	static
+../Drv/inputs.c:294:6:Inputs_Get_Config	16	static
+../Drv/inputs.c:306:6:Input_PinConf_Get	16	static

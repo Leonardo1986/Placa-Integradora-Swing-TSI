@@ -1,0 +1,15 @@
+../Src/tim.c:44:6:TIM_1_Init	12
+../Src/tim.c:127:6:TIM_3_Init	11
+../Src/tim.c:194:6:TIM_6_Init	3
+../Src/tim.c:220:6:TIM_14_Init	5
+../Src/tim.c:261:6:TIM_15_Init	5
+../Src/tim.c:332:6:TIM_16_Init	5
+../Src/tim.c:393:6:TIM_17_Init	6
+../Src/tim.c:446:6:TIM_Init_All	1
+../Src/tim.c:460:6:TIM_MOTOR_STOP	2
+../Src/tim.c:484:6:TIM_MOTOR_RUN	6
+../Src/tim.c:529:6:TIM_DisableInterruptMotor	2
+../Src/tim.c:541:6:TIM_EnableInterruptMotor	2
+../Src/tim.c:554:6:TIM_STPMT_STOP	2
+../Src/tim.c:570:6:TIM_STPMT_START	4
+../Src/tim.c:586:6:TIM_STPMT_SET	2

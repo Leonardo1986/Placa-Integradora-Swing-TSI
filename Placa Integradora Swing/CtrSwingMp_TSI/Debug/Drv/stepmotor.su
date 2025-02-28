@@ -1,0 +1,15 @@
+../Drv/stepmotor.c:88:6:_stpmt_func_motor_stop	16	static
+../Drv/stepmotor.c:93:6:_stpmt_func_motor_start	16	static
+../Drv/stepmotor.c:99:6:_stpmt_func_motor_set	16	static
+../Drv/stepmotor.c:104:6:_stpmt_func_motor_move	32	static
+../Drv/stepmotor.c:164:13:_stpmt_task_ctrl	48	static
+../Drv/stepmotor.c:224:13:_stpmt_TASK	8	static
+../Drv/stepmotor.c:232:6:StepMotor_IT	16	static,ignoring_inline_asm
+../Drv/stepmotor.c:318:6:StepMotor_Init	8	static
+../Drv/stepmotor.c:344:11:StepMotor_GetSts	16	static
+../Drv/stepmotor.c:349:6:StepMotor_GO	24	static
+../Drv/stepmotor.c:362:6:StepMotor_STOP	16	static
+../Drv/stepmotor.c:371:6:StepMotor_POWER	16	static
+../Drv/stepmotor.c:381:10:StepMotor_GetStepEnc	24	static
+../Drv/stepmotor.c:388:10:StepMotor_GetStepPos	24	static
+../Drv/stepmotor.c:395:11:StepMotor_GetDir	16	static
